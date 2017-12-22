@@ -1,0 +1,18 @@
+{
+  "name": "Money_Manager",
+  "version": "1.0.0",
+  "description": "Manager for spending money",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nazar Bulych",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
