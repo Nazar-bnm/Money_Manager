@@ -5,7 +5,11 @@ const routers = require('./routers');
 
 const app = express();
 
-app.use(express.static(config.paths.public));
+app.set('view engine', 'pug');
+app.get('/', (req, res) => {
+  res.render('index', { title: 'Hello pug' });
+})
+// app.use(express.static(config.paths.public));
 
 app.use('/accounts', routers.accounts);
 app.use('/categories', routers.categories);
