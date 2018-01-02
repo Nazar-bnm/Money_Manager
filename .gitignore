@@ -9,6 +9,7 @@ npm-debug.log
 .idea/*
 .DS_Store
 .DS_Store/*
+.vscode
 
 # OS generated files #
 ######################

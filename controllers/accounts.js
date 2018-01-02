@@ -1,3 +1,6 @@
+// data
+const users = require('../data/users');
+
 module.exports = {
   // GET /accounts
   getAllAccounts(req, res) {
@@ -6,6 +9,7 @@ module.exports = {
 
   // GET /accounts/:account
   getAccount(req, res) {
-    res.send(`Show ${req.params.account}`);
+    res.render('index', { user: users[req.params.account] });
+    // res.send(`Show ${req.params.account}`);
   }
 };
