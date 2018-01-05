@@ -1,0 +1,47 @@
+[
+  {
+    "id": "home",
+    "title": "Home",
+    "url": "/categories/home"
+  },
+  {
+    "id": "food",
+    "title": "Food",
+    "url": "/categories/food"
+  },
+  {
+    "id": "clothes",
+    "title": "Clothes",
+    "url": "/categories/clothes"
+  },
+  {
+    "id": "health",
+    "title": "Health",
+    "url": "/categories/health"
+  },
+  {
+    "id": "transport",
+    "title": "Transport",
+    "url": "/categories/transport"
+  },
+  {
+    "id": "entertainment",
+    "title": "Entertainment",
+    "url": "/categories/entertainment"
+  },
+  {
+    "id": "travels",
+    "title": "Travels",
+    "url": "/categories/travels"
+  },
+  {
+    "id": "hobby",
+    "title": "Hobby",
+    "url": "/categories/hobby"
+  },
+  {
+    "id": "other",
+    "title": "Other",
+    "url": "/categories/other"
+  }
+]

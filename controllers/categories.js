@@ -1,7 +1,12 @@
 module.exports = {
   // GET /categories
   getAllCategories(req, res) {
-    res.send('Show all categories');
+    {
+      res.render('categories', {
+        id: 'categories',
+        title: 'Categories'
+      });
+    }
   },
 
   // GET /categories/:category

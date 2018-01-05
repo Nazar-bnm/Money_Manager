@@ -1,0 +1,13 @@
+extends ../layout
+
+block main
+  main#main
+    div.mdc-list-group
+      div.mdc-list
+        for item in categories
+          - let isActive = id && item.id === id;
+
+          a.mdc-list-item(href=`${item.url}`)
+            i.mdc-list-item__start-detail.material-icons(aria-hidden='true') home
+            span.mdc-list-item__text= item.title
+          hr.mdc-list-divider
