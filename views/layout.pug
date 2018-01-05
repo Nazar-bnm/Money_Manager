@@ -1,15 +1,25 @@
 doctype html
-html(lang="en")
+html
   head
-    include head
-  block styles
-    link(rel="stylesheet", href="./main.css")
+    title #{title}
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700&subset=cyrillic')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons')
+    link(rel='stylesheet' href=`/css/main.css?v=${version}`)
 
-  body
-    header Header
+    script(src='/lib/material-components-web/dist/material-components-web.min.js')
 
-    main
-      block content
+    block head
+  body(id=`${id}-page` class=className).mdc-typography
+    block header
+      include _includes/toolbar
 
-    footer Footer
-    include scripts
+    block content
+      section#content
+        include _includes/sidenav
+
+
+
+    block scripts

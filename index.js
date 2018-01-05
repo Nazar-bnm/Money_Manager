@@ -26,6 +26,7 @@ app.use('/lib', express.static(config.paths.lib));
 
 app.use(logger('dev'));
 
+app.use('/', routers.dashboard);
 app.use('/accounts', routers.accounts);
 app.use('/categories', routers.categories);
 app.use('/statistic', routers.statistic);
