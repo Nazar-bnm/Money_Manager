@@ -5,8 +5,9 @@ const config = require('./config');
 const { error } = require('./middleware');
 const routers = require('./routers');
 
-// data
+// static data
 const users = require('./data/users');
+const navigation = require('./data/navigation');
 
 const app = express();
 
@@ -14,7 +15,9 @@ app.set('view engine', 'pug');
 app.set('views', config.paths.views);
 app.set('config', config);
 
+// set global data
 app.locals.version = config.version;
+app.locals.navigation = navigation;
 
 // app.get('/', (req, res) => {
 //   res.render('index', { title: 'Hello pug' });

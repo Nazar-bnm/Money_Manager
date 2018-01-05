@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dashboard",
+    "title": "Dashboard",
+    "url": "/"
+  },
+  {
+    "id": "categories",
+    "title": "Categories",
+    "url": "/categories"
+  },
+  {
+    "id": "statistic",
+    "title": "Statistic",
+    "url": "/statistic"
+  },
+  {
+    "id": "profile",
+    "title": "Profile",
+    "url": "/profile"
+  }
+]
