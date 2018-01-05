@@ -31,6 +31,7 @@ app.use('/lib', express.static(config.paths.lib));
 app.use(logger('dev'));
 
 app.use('/', routers.dashboard);
+app.use('/wallets', routers.wallets);
 app.use('/categories', routers.categories);
 app.use('/statistic', routers.statistic);
 app.use('/profile', routers.profile);

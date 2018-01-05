@@ -5,6 +5,11 @@
     "url": "/"
   },
   {
+    "id": "wallets",
+    "title": "Wallets",
+    "url": "/wallets"
+  },
+  {
     "id": "categories",
     "title": "Categories",
     "url": "/categories"
