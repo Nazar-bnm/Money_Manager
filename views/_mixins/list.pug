@@ -1,0 +1,10 @@
+mixin list(dataList)
+  div.mdc-list-group
+    nav.mdc-list
+      for item in dataList
+        - let isActive = id && item.id === id;
+
+        a.mdc-list-item(href=`${item.url}` class={ 'mdc-list-item--activated': isActive, 'mdc-permanent-drawer--selected': isActive })
+          i.mdc-list-item__start-detail.material-icons(aria-hidden='true')= item.icon
+          span.mdc-list-item__text= item.title
+        hr.mdc-list-divider

@@ -1,6 +1,7 @@
 module.exports = {
-  accounts: require('./accounts'),
+  wallets: require('./wallets'),
   categories: require('./categories'),
   statistic: require('./statistic'),
-  profile: require('./profile')
+  profile: require('./profile'),
+  dashboard: require('./dashboard')
 };

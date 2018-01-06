@@ -1,7 +1,12 @@
 module.exports = {
   // GET /categories
   getAllStatistic(req, res) {
-    res.send('Show all statistic');
+    {
+      res.render('statistic', {
+        id: 'statistic',
+        title: 'Statistic'
+      });
+    }
   },
 
   // GET /categories/:category

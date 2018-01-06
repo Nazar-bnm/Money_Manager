@@ -1,6 +1,11 @@
 module.exports = {
   // GET /profile
   getProfile(req, res) {
-    res.send('Show profile');
+    {
+      res.render('profile', {
+        id: 'profile',
+        title: 'Profile'
+      });
+    }
   }
 };

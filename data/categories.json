@@ -1,0 +1,74 @@
+[
+  {
+    "id": "home",
+    "title": "Home",
+    "url": "/categories/home",
+    "icon": "house"
+  },
+  {
+    "id": "food",
+    "title": "Food",
+    "url": "/categories/food",
+    "icon": "local_dining"
+  },
+  {
+    "id": "clothes",
+    "title": "Clothes",
+    "url": "/categories/clothes",
+    "icon": "motorcycle"
+  },
+  {
+    "id": "health",
+    "title": "Health",
+    "url": "/categories/health",
+    "icon": "local_pharmacy"
+  },
+  {
+    "id": "sport",
+    "title": "Sport",
+    "url": "/categories/sport",
+    "icon": "fitness_center"
+  },
+  {
+    "id": "transport",
+    "title": "Transport",
+    "url": "/categories/transport",
+    "icon": "motorcycle"
+  },
+  {
+    "id": "entertainment",
+    "title": "Entertainment",
+    "url": "/categories/entertainment",
+    "icon": "local_activity"
+  },
+  {
+    "id": "travels",
+    "title": "Travels",
+    "url": "/categories/travels",
+    "icon": "airplanemode_active"
+  },
+  {
+    "id": "education",
+    "title": "Education",
+    "url": "/categories/education",
+    "icon": "school"
+  },
+  {
+    "id": "hobby",
+    "title": "Hobby",
+    "url": "/categories/hobby",
+    "icon": "motorcycle"
+  },
+  {
+    "id": "pets",
+    "title": "Pets",
+    "url": "/categories/pets",
+    "icon": "pets"
+  },
+  {
+    "id": "other",
+    "title": "Other",
+    "url": "/categories/other",
+    "icon": "shopping_basket"
+  }
+]

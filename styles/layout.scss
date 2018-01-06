@@ -1,0 +1,8 @@
+#content {
+  display: flex;
+  .main {
+    width: 100%;
+    background: #f9f9f9;
+    min-height: calc(100vh - 64px);
+  }
+}
