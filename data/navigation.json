@@ -2,26 +2,31 @@
   {
     "id": "dashboard",
     "title": "Dashboard",
-    "url": "/"
+    "url": "/",
+    "icon": "home"
   },
   {
     "id": "wallets",
     "title": "Wallets",
-    "url": "/wallets"
+    "url": "/wallets",
+    "icon": "account_balance_wallet"
   },
   {
     "id": "categories",
     "title": "Categories",
-    "url": "/categories"
+    "url": "/categories",
+    "icon": "playlist_add"
   },
   {
     "id": "statistic",
     "title": "Statistic",
-    "url": "/statistic"
+    "url": "/statistic",
+    "icon": "assessment"
   },
   {
     "id": "profile",
     "title": "Profile",
-    "url": "/profile"
+    "url": "/profile",
+    "icon": "assignment_ind"
   }
 ]
