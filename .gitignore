@@ -24,3 +24,7 @@ Thumbs.db
 # build #
 #########
 app.css
+
+# environment #
+###############
+.env
