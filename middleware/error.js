@@ -1,6 +1,6 @@
 module.exports = {
     notFound(req, res, next) {
-        let error = new Error('Не найдено');
+        let error = new Error('Not Found!');
         error.status = 404;
 
         next(error);
@@ -11,7 +11,7 @@ module.exports = {
 
         res.render('error', {
             id: 'error',
-            title: 'Ошибка',
+            title: 'Error',
             error
         });
     },
@@ -19,7 +19,7 @@ module.exports = {
     production(error, req, res, next) {
         res.render('error', {
             id: 'error',
-            title: 'Ошибка',
+            title: 'Error',
             message: error.message
         });
     }
