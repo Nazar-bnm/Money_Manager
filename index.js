@@ -8,7 +8,7 @@ const routers = require('./routers');
 // static data
 const users = require('./data/users');
 const navigation = require('./data/navigation');
-const categories = require('./data/categories');
+// const categories = require('./data/categories');
 
 const app = express();
 
@@ -20,7 +20,8 @@ app.set('config', config);
 app.locals = {
   version: config.version,
   navigation,
-  categories
+  // categories,
+  basedir: config.paths.views // for use absolute path in pug
 }
 
 // static files (images, css)

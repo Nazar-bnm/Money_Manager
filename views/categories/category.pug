@@ -1,0 +1,24 @@
+extends /layout
+
+block main
+    main#main
+        div.mdc-layout-grid
+            div.mdc-layout-grid__inner
+                div.mdc-layout-grid__cell.mdc-layout-grid__cell--span-6
+                    div.mdc-card.book-card
+                        div.mdc-card__horizontal-block
+                            header.mdc-card__primary
+                                h1.mdc-card__title.mdc-card__title--large= category.title
+
+                                ul.mdc-list
+                                    li.mdc-list-item
+                                        i.mdc-list-item__start-detail.material-icons= category.icon
+                                        span.mdc-list-item__text choose icon
+
+                                ul.mdc-list
+                                    li.mdc-list-item
+                                        i.mdc-list-item__start-detail.material-icons invert_colors
+                                        span.mdc-list-item__text choose color
+
+                        section.mdc-card__supporting-text
+                            h2.mdc-typography--title hear we'll have settings for categories
